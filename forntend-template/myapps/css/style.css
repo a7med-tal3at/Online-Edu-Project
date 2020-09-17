@@ -1,0 +1,129 @@
+
+/* HTML Tags Reset */
+p {
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+iframe {
+    width: 100%;
+    height:800px;
+    
+}
+/* General style */
+
+.clear {
+    clear: both;
+}
+
+/* Start instructor styles */
+
+.instruct {
+    padding: 0 35px;
+}
+
+.instruct .who-is {
+    width: 65%;
+    float: left;
+    margin-right:5%;
+    padding-top: 20px; 
+}
+
+.instruct .ts, .instruct .rev  {
+    float: left;
+}
+
+.instruct .who-is #type,
+.instruct .who-is .achive p {
+    text-transform: uppercase;
+}
+
+.instruct .who-is #type {
+    color: #678aca;
+    font-size: 16px;
+}
+
+.instruct .who-is .inst-name, 
+.instruct .who-is .jop-title,
+.instruct .who-is #type,
+.instruct .who-is .achive p,
+.instruct .who-is .achive span,
+.instruct .who-is #am,
+.instruct .who-is .mycourse {
+    font-weight: bold;
+}
+.instruct .who-is .jop-title ,
+.instruct .who-is .achive {
+    margin-bottom: 30px;
+}
+.instruct .ts {
+    margin-right: 20px;
+}
+
+.instruct .who-is .achive p {
+    font-size: 12px;
+    color: #678aca;
+}
+
+.instruct .who-is .achive span {
+    font-size: 25px;
+}
+
+
+.instruct .who-is #am {
+    text-transform: capitalize;
+    color: #678aca;
+}
+
+.instruct .who-is #amdesc {
+    color: rgb(77, 74, 74);
+}
+
+.instruct .who-is .mycourse {
+    margin-top: 60px;
+    color: #678aca
+}
+
+.instruct .social {
+    width: 30%;
+    float: left;
+    padding: 20px ;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 8px #ddd,
+                -2px -2px 8px #ddd;
+}
+
+.instruct .social .img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    
+    
+}
+
+.instruct .social .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.instruct .social-btn  .mybtn {
+    border: 2px solid #678aca;
+    background-color: transparent;
+    color: #678aca;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    padding: 5px 0px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.instruct .social-btn  .mybtn:hover {
+    cursor: pointer; 
+}
