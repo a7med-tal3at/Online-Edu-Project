@@ -45,11 +45,6 @@ iframe {
     font-size: 16px;
 }
 
-.instruct .who-is .inst-name, 
-.instruct .who-is .jop-title,
-.instruct .who-is #type,
-.instruct .who-is .achive p,
-.instruct .who-is .achive span,
 .instruct .who-is #am,
 .instruct .who-is .mycourse {
     font-weight: bold;
@@ -100,8 +95,6 @@ iframe {
     width: 170px;
     height: 170px;
     margin: 0 auto;
-    
-    
 }
 
 .instruct .social .img img {
@@ -109,21 +102,49 @@ iframe {
     height: 100%;
     border-radius: 10px;
 }
-
+.instrct .social-btn {
+    text-align: center;
+}
 .instruct .social-btn  .mybtn {
     border: 2px solid #678aca;
     background-color: transparent;
     color: #678aca;
     font-weight: bold;
-    width: 100%;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     padding: 5px 0px;
-    display: block;
-    margin-top: 20px;
-    border-radius: 5px;
+    margin: 20px 5px 0px 0px;
+    border-radius: 50%;
 
 }
 
 .instruct .social-btn  .mybtn:hover {
     cursor: pointer; 
+}
+
+
+.instruct .social .info .p-info {
+    text-align: center;
+    margin: 20px 0;
+   
+}
+
+.instruct .social .info .p-info .inst-name {
+    font-size: 20px;
+}
+
+.info .achive .ts {
+    margin-right: 70px;
+
+}
+
+.info .achive .ts p,
+.info .achive .rev {
+    text-transform: uppercase;
+}
+
+.info .achive .ts span, 
+.info .achive .rev span {
+    font-size: 25px;
+    font-weight: bold;
 }
