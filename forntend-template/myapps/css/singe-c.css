@@ -3,6 +3,10 @@
     clear: both;
 }
 
+/* Start of top sec */
+.top-sec {
+    margin-bottom: 40px;
+}
 .top-sec .img-cont,
 .top-sec .content {
     margin: 30px 0;
@@ -103,4 +107,135 @@
 
 .play-button:hover {
     cursor: pointer;    
+}
+
+/* End of top sec */
+
+/* Start of course content */
+
+.c-content {
+    background-color: #f4f8fa;
+    padding: 50px 0px;
+}
+.c-lbl {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.c-content .left-content .c-overview,
+.c-content .left-content .c-circu,
+.c-content .right-content .c-features,
+.c-content .right-content .c-info {
+    padding: 30px;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #ddd,
+                -2px -2px 8px #ddd;
+
+    color: #10285d;
+    margin-bottom: 46px;
+
+}
+.c-content .left-content {
+    width: 65%;
+    float: left;
+    margin-right: 5%;
+
+}
+
+.c-content .right-content {
+    width: 30%;
+    float: left;
+}
+
+
+.c-content .left-content p {
+    line-height: 25px;
+    font-size: 15.5px;
+    color: #10285d;
+}
+
+.c-content .left-content .c-overview ul {
+    line-height: 35px;
+}
+
+.c-content .left-content .c-overview ul li {
+
+    padding-left: 16px;
+}
+  
+.c-content .left-content .c-overview ul li:before {
+    content: "•"; 
+    padding-right: 8px;
+
+}
+.c-content .left-content .c-circu .acor {
+    box-shadow: 2px 2px 6px #ddd,
+    -2px -2px 6px #ddd;
+    width: 90%;
+    margin: 20px auto;
+    
+
+}
+.c-content .left-content .c-circu .acor button {
+
+    width: 90%;
+    height: 50px;
+
+    border: none;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+    background-color: #fff;
+}
+
+
+
+
+.c-content .left-content .c-circu .acor button:after {
+  
+    content: "+";
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+
+
+.c-content .left-content .c-circu .acor ul li {
+    width: 90%;
+    padding: 20px;
+    border-bottom: solid 1px #efefef;
+}
+
+.c-content .left-content .c-circu .acor ul li span{
+    color: rgb(36, 78, 78);
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.c-content .left-content .c-circu .acor ul li .lect-title {
+    font-weight: bold;
+    color: rgb(111, 111, 238)
+}
+
+.c-content .left-content .c-circu .acor ul li i.ti-lock {
+    float: right;
+}
+.c-content .left-content .c-circu .acor .slider {
+    max-height: 0;
+    overflow: hidden;
+    transition: 80s;
+
+}
+
+
+
+.c-content .left-content .c-circu .acor button:hover {
+    cursor: pointer;
+    
 }
