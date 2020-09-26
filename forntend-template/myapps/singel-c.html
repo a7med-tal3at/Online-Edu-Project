@@ -397,6 +397,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="social">
+                    <h2 class="c-lbl">instructor info</h2>
+                    <div class="img">
+                        <img src="img/team1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="p-info">
+                            <p class="inst-name">Ahemd T.Mamdouh</p>
+                            <p class="jop-title">CS masteres degree</p>
+                        </div>
+                        <div class="achive">
+                            <div class="ts">
+                                <p>students</p>
+                                <span>302,433</span>
+                            </div>
+            
+                            <div class="rev">
+                                <p>reviews</p>
+                                <span>90,575</span>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="social-btn">
+                        <button>show all courses</button>
+                    </div>
+                </div>
+        
             </div>
             <div class="right-content">
 
@@ -575,7 +604,12 @@
     <script>
         function def() {
             acr = document.getElementsByClassName("slider")[0];
-            acr.style.maxHeight = acr.scrollHeight+"200px";
+            
+            if (acr.style.maxHeight) {
+                acr.style.maxHeight = null;
+            } else {
+                acr.style.maxHeight = acr.scrollHeight+"px";
+            }
             
         }
     </script>

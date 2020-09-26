@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .clear {
     clear: both;
 }
@@ -229,7 +232,7 @@
 .c-content .left-content .c-circu .acor .slider {
     max-height: 0;
     overflow: hidden;
-    transition: 80s;
+    transition: 0.5s;
 
 }
 
@@ -238,4 +241,78 @@
 .c-content .left-content .c-circu .acor button:hover {
     cursor: pointer;
     
+}
+
+
+.c-content .left-content  .social {
+    width: 50%;
+    padding: 20px ;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 8px #ddd,
+                -2px -2px 8px #ddd;
+}
+
+.c-content .left-content .social .img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+
+}
+
+.c-content .left-content .social .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.c-content .left-content .social-btn {
+    text-align: center;
+}
+.c-content .left-content  .social-btn  button {
+    border: 2px solid #678aca;
+    background-color: transparent;
+    color: #678aca;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    padding: 5px 0px;
+    margin: 20px 5px 0px 0px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: 0.5s
+
+}
+
+.c-content .left-content  .social-btn  button:hover {
+    cursor: pointer; 
+    background: #678aca;
+    color: #fff;
+}
+
+
+.c-content .left-content  .social .info .p-info {
+    text-align: center;
+    margin: 20px 0;
+   
+}
+
+.c-content .left-content .social .info .p-info .inst-name {
+    font-size: 20px;
+}
+
+.info .achive .ts {
+    margin-right: 70px;
+    float: left;
+
+}
+
+.info .achive .ts p,
+.info .achive .rev {
+    text-transform: uppercase;
+}
+
+.info .achive .ts span, 
+.info .achive .rev span {
+    font-size: 25px;
+    font-weight: bold;
 }
