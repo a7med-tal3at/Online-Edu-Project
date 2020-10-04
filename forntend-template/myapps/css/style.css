@@ -70,6 +70,7 @@ iframe {
 .instruct .who-is #am {
     text-transform: capitalize;
     color: #678aca;
+    margin-bottom: 50px;
 }
 
 .instruct .who-is #amdesc {

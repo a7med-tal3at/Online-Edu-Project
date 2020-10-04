@@ -74,8 +74,9 @@ instructor:
 
 
 My Tasks:
-    - create single course page 
+    - create single course page #
     - creaute instructor page #
     - log-in register #
+    - profile[...]
 
 
