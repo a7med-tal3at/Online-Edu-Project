@@ -1,0 +1,37 @@
+.c-overview h2 {
+    display: inline-block;
+    width: 40%;
+}
+
+.inp-data {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #0a70c7;
+    margin-right: 10px
+}
+ .add-req, .add-part-btn {
+    height: 47px;
+    width: 104px;
+    background-color: #0a70c7;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: .5s;
+    margin-bottom: 10px;
+}
+.inp-data, .add-req, .add-part-btn {
+    border-radius: 10px;
+}
+
+.c-content .left-content,
+.c-content .right-content {
+    width: auto;
+    float: none;
+}
+
+#reqs li:hover, .add-req:hover, .add-part-btn:hover{
+    cursor: pointer;
+}
+
+.add-part {
+    text-align: center;
+}

@@ -148,6 +148,7 @@
     color: #10285d;
     margin-bottom: 46px;
 
+
 }
 .c-content .left-content {
     width: 65%;
@@ -190,7 +191,7 @@
     
 
 }
-.c-content .left-content .c-circu .acor button {
+.c-content .left-content .c-circu .acor .top-btn {
 
     width: 90%;
     height: 50px;
@@ -206,7 +207,7 @@
 
 
 
-.c-content .left-content .c-circu .acor button:after {
+.c-content .left-content .c-circu .acor .top-btn:after {
   
     content: "+";
     font-size: 20px;
@@ -246,7 +247,7 @@
 
 
 
-.c-content .left-content .c-circu .acor button:hover {
+.c-content .left-content .c-circu .acor .top-btn:hover {
     cursor: pointer;
     
 }
@@ -334,7 +335,9 @@
     color: rgb(105, 104, 107);;
     font-weight: bold;
 }
-
+.c-features {
+    
+}
 .c-features label, p {
 
     text-transform: capitalize;
@@ -353,7 +356,7 @@
     color: rgb(130, 255, 80);
 }
 
-.c-features button {
+.save-btn {
     width: 100%;
     padding: 10px;
     background-color: #10285d;
@@ -365,11 +368,11 @@
     margin-top: 10px;
 }
 
-.c-features button i {
+.save-btn i {
     margin-left: 10px;
 }
 
-.c-features button:hover {
+.save-btn:hover {
 
     color: #10285d;
     background-color: #fff;

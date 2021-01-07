@@ -1,0 +1,47 @@
+.btn-crt {
+    width: 100%;
+    padding: 10px;
+    color: #10285d;
+    background-color: #fff;
+    text-transform: capitalize;
+    border: 2px solid #10285d;
+    border-radius: 15px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.btn-crt:hover {
+
+    background-color: #10285d;
+    color: #fff;
+}
+
+/* table*/
+form {
+    margin-bottom: 50px;
+}
+
+form table {
+    width: 100%;
+}
+
+form table .lbl {
+    text-transform: capitalize;
+    font-size: 18px;
+} 
+
+form table td{
+    
+    padding: 20px;
+}
+form table tr td input[type="text"], 
+form table tr td input[type="number"],
+form table tr td textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+ 
